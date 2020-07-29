@@ -61,9 +61,9 @@ function insertExcel() {
         var pdfViewerEmbed = document.createElement("embed");
         pdfViewerObject.setAttribute("data", cp1Url);
         pdfViewerEmbed.setAttribute("src", cp1Url);
-        pdfViewerObject.setAttribute("style", 'height:400px; width:50%;');
+        pdfViewerObject.setAttribute("style", 'height:700px; width:50%;');
 
-        pdfViewerEmbed.setAttribute("style", 'height:400px; width:50%;');
+        pdfViewerEmbed.setAttribute("style", 'height:700px; width:50%;');
 
 
         pdfViewerObject.setAttribute("id", 'cp1obj');
@@ -76,9 +76,9 @@ function insertExcel() {
         c.setAttribute("data", cp2Url);
         d.setAttribute("src", cp2Url);
         c.setAttribute('id', 'cp2obj')
-        c.setAttribute("style", 'height:400px; width:50%;');
+        c.setAttribute("style", 'height:700px; width:50%;');
 
-        d.setAttribute("style", 'height:400px; width:50%;');
+        d.setAttribute("style", 'height:700px; width:50%;');
 
         document.getElementById('project').prepend(c)
         document.getElementById('cp2obj').prepend(d)
