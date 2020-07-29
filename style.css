@@ -1,0 +1,41 @@
+.skill{
+    border-radius: 50%;
+    background-color: aliceblue;
+    height: 50px;
+    width:25vw;
+    margin: 10px 10px;
+}
+a { color: inherit; 
+    text-decoration: inherit; 
+} 
+a:hover{
+    color: inherit; 
+    text-decoration: inherit; 
+}
+
+.skill:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.skillButtons{
+    display: flex;
+    justify-content: center;
+ 
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+#headShotAndButtons{
+    width: 20vw;
+}
+#project{
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+}
+#headshot{
+    padding:1px;
+    border:1px solid #021a40;
+    background-color:blue;
+}
