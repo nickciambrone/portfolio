@@ -21,9 +21,12 @@ function insertPython() {
     pdfViewerObject.setAttribute("style", ' width:100%; height: 900px;');
     pdfViewerObject.setAttribute("id", 'pyf');
     var asdf = document.createElement('h4')
-    asdf.innerHTML = 'In this project I cleansed and analyzed loan application data. I then used the SKlearn decision tree classifier to build a model that predicts if a loan applicant will pay back their loan in full'
+    asdf.innerHTML = 'In this project I cleansed and analyzed loan application data. I then used the SKlearn decision tree classifier to build a model that predicts if a loan applicant will pay back their loan in full. '
     asdf.setAttribute('id', 'asdf')
+
     document.getElementById('project').prepend(pdfViewerObject)
+    document.getElementById('project').prepend(asdf)
+
 
     pythonThere=true;
     }
