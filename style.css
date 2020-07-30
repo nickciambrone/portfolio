@@ -49,9 +49,7 @@ body {
     justify-content: center;
  
 }
-#headShotAndButtons{
-    width: 20vw;
-}
+
 #project{
     flex-wrap:wrap;
     display: flex;
@@ -61,6 +59,9 @@ body {
 .col-4{
     display: flex;
     justify-content: center;
+}
+#headShotAndButtons{
+    width: 33vw;
 }
 .container{
     border: black solid 3px;
