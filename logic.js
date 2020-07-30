@@ -20,8 +20,11 @@ function insertPython() {
     pdfViewerEmbed.setAttribute("src", 'py.pdf');
     pdfViewerObject.setAttribute("style", ' width:100%; height: 900px;');
     pdfViewerObject.setAttribute("id", 'pyf');
-
+    var asdf = document.createElement('h4')
+    asdf.innerHTML = 'In this project I cleansed and analyzed loan application data. I then used the SKlearn decision tree classifier to build a model that predicts if a loan applicant will pay back their loan in full'
+    asdf.setAttribute('id', 'asdf')
     document.getElementById('project').prepend(pdfViewerObject)
+
     pythonThere=true;
     }
     if (excelThere) {
