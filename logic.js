@@ -105,7 +105,6 @@ function insertExcel() {
         document.getElementById('shdb').remove()
         document.getElementById('msa').remove()
         document.getElementById('msb').remove()
-        document.getElementById('asdf').remove()
 
 
 
@@ -139,7 +138,6 @@ function insertSql() {
         document.getElementById("cp2obj").remove();
         document.getElementById("cp1obj").remove();
         document.getElementById("fun").remove();
-        document.getElementById('asdf').remove()
         
 
         excelThere = false;

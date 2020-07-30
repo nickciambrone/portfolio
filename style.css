@@ -8,6 +8,10 @@
 a { color: inherit; 
     text-decoration: inherit; 
 } 
+.card{
+    background-color: black;
+
+}
 a:hover{
     color: inherit; 
     text-decoration: inherit; 
@@ -22,13 +26,24 @@ a:hover{
     justify-content: center;
  
 }
+
 body {
 	
 	font-family: Source Sans Pro;
 	font-size: 12px;
-	font-size: 1rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white
 
 }
+.frame {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #ccc;
+    background: #eee;
+    margin: auto;
+    padding: 15px 10px;
+  }
 .top{
     display: flex;
     justify-content: center;
@@ -42,17 +57,13 @@ body {
     display: flex;
     justify-content: center;
 }
-#headshot{
-    padding:1px;
-    border:1px solid #021a40;
-    background-color:blue;
-}
+
 .col-4{
     display: flex;
     justify-content: center;
 }
 .container{
     border: black solid 3px;
-    background-color: beige;
+  
     height:1400px;
 }
