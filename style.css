@@ -25,6 +25,7 @@ a:hover{
 .top{
     display: flex;
     justify-content: center;
+ 
 }
 #headShotAndButtons{
     width: 20vw;

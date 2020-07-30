@@ -27,7 +27,6 @@ function insertPython() {
     document.getElementById('project').prepend(pdfViewerObject)
     document.getElementById('project').prepend(asdf)
 
-
     pythonThere=true;
     }
     if (excelThere) {
@@ -106,6 +105,8 @@ function insertExcel() {
         document.getElementById('shdb').remove()
         document.getElementById('msa').remove()
         document.getElementById('msb').remove()
+        document.getElementById('asdf').remove()
+
 
 
 
@@ -114,6 +115,8 @@ function insertExcel() {
     }
     if (pythonThere){
         document.getElementById('pyf').remove()
+        document.getElementById('asdf').remove()
+
         pythonThere=false;
     }
 
@@ -127,6 +130,8 @@ function insertSql() {
     }
     if (pythonThere){
         document.getElementById('pyf').remove()
+        document.getElementById('asdf').remove()
+
         pythonThere=false;
     }
 
@@ -134,6 +139,8 @@ function insertSql() {
         document.getElementById("cp2obj").remove();
         document.getElementById("cp1obj").remove();
         document.getElementById("fun").remove();
+        document.getElementById('asdf').remove()
+        
 
         excelThere = false;
     }
